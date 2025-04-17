@@ -1,14 +1,13 @@
 # goupgrader
 
 goupgrader is a tool designed to simplify managing and upgrading Go modules in your Go projects. It helps you to automatically upgrade specific dependencies in your `go.mod` file to specified versions or branches.
+
 Additionally, it includes a command to generate a config file tailored to a specific OpenShift release. By analyzing which Kubernetes version that OpenShift version uses, it matches it with a compatible operator-sdk version and collects the relevant dependency versions. This config can then be used to upgrade your project in alignment with the selected OpenShift release.
 
-## Table of Contents
-
+# Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Commands](#commands)
 - [Testing](#testing)
 - [Contributing](#contributing)
 
