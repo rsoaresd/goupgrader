@@ -1,7 +1,8 @@
 # goupgrader
 
-image:https://goreportcard.com/badge/github.com/rsoaresd/goupgrader[Go Report Card, link="https://goreportcard.com/report/github.com/rsoaresd/goupgrader"]
-image:https://godoc.org/github.com/rsoaresd/goupgrader?status.png[GoDoc,link="https://godoc.org/github.com/rsoaresd/goupgrader"]
+[![GoDoc](https://godoc.org/github.com/rsoaresd/goupgrader?status.png)](https://godoc.org/github.com/rsoaresd/goupgrader)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rsoaresd/goupgrader)](https://goreportcard.com/report/github.com/rsoaresd/goupgrader)
+
 
 
 goupgrader is a tool designed to simplify managing and upgrading Go modules in your Go projects. It helps you to automatically upgrade specific dependencies in your `go.mod` file to specified versions or branches.
